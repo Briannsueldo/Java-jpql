@@ -88,4 +88,10 @@ public class DetallePedido {
         this.numeroLinea = numeroLinea;
     }
 
+    @Override
+    public String toString() {
+        return "DetallePedido [idDetallePedido=" + idDetallePedido + ", cantidad=" + cantidad + ", numeroLinea="
+                + numeroLinea + ", precioUnidad=" + precioUnidad + ", Producto=" + Producto + ", pedido=" + pedido
+                + "]";
+    }
 }

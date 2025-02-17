@@ -153,6 +153,5 @@ public class Empleado {
                 + ", email=" + email + ", extension=" + extension + ", idJefe=" + idJefe + ", nombre=" + nombre
                 + ", puesto=" + puesto + ", Oficina=" + Oficina + "]";
     }
-
     
 }

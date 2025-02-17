@@ -129,4 +129,12 @@ public class Producto {
         this.gamaProducto = gamaProducto;
     }
 
+    @Override
+    public String toString() {
+        return "Producto [idProducto=" + idProducto + ", cantidadEnStock=" + cantidadEnStock + ", codigoProducto="
+                + codigoProducto + ", descripcion=" + descripcion + ", dimensiones=" + dimensiones + ", nombre="
+                + nombre + ", precioProveedor=" + precioProveedor + ", precioVenta=" + precioVenta + ", proveedor="
+                + proveedor + ", gamaProducto=" + gamaProducto + "]";
+    }
+
 }

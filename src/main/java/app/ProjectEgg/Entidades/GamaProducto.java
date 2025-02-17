@@ -89,4 +89,9 @@ public class GamaProducto {
     }
 
 
+    @Override
+    public String toString() {
+        return "GamaProducto [idGama=" + idGama + ", descripcionTexto=" + descripcionTexto + ", descripcionHtml="
+                + descripcionHtml + ", gama=" + gama + ", imagen=" + imagen + "]";
+    }
 }

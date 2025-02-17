@@ -117,5 +117,10 @@ public class Pago {
         this.cliente = cliente;
     }
 
-    
+
+    @Override
+    public String toString() {
+        return "Pago [idPago=" + idPago + ", fechaPago=" + fechaPago + ", formaPago=" + formaPago + ", idTransaccion="
+                + idTransaccion + ", total=" + total + ", cliente=" + cliente + "]";
+    }
 }
